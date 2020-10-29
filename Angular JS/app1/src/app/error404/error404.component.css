@@ -1,0 +1,19 @@
+h1{
+    font-family: "Roboto", sans-serif;
+    color: red;
+    font-size: 85px;
+    text-align: center;
+    margin-top: 100px;
+}
+h3{
+    font-family: "Roboto", sans-serif;
+    font-size: 35px;
+    text-align: center;
+}
+.img img{
+    width: 400px;
+}
+.img{
+    display: flex;
+    justify-content: center;
+}

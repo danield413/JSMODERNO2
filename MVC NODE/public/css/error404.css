@@ -1,0 +1,23 @@
+h2{
+    font-family: 'Raleway', sans-serif;
+}
+
+.imagen{
+    display: flex;
+    justify-content: center;
+}
+.imagen img{
+    height: 300px;
+}
+
+#cta{
+    padding: 20px 100px;
+    background: black;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+#cta:hover{
+    background: blueviolet;
+}

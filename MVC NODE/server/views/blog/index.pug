@@ -1,0 +1,11 @@
+extends ../layout/index
+block contenido
+    .container-fluid.mt-5
+        .row 
+            each post in posts
+                .col-md-6.col-lg-4.mb-4
+                    .card
+                        .card-body
+                            h2.card-title.mb-3= post.nombre_post
+                            p.card-text= post.descripcion_post
+                            h3.text-right= `- ${post.usuario_post} `

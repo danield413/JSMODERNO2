@@ -1,0 +1,22 @@
+extends ../layout/index
+block contenido
+    .container.py-5
+       .row
+            .col-3
+
+
+            .col-6
+                form(action="/contacto", method="POST")
+                    h2.lead Contáctate con Nosotros
+                    if(errores)
+                        each error in errores
+                            .alert-danger.text-center.p-2= error.mensaje
+                    .form-group
+                        label(for='correo') Correo Electronico
+                        input.form-control(type='email', name="correo", id="correo", value= correo)
+                    .form-group
+                        label(for='mensaje') Mensaje
+                        input.form-control(type='text', name="mensaje", id="mensaje", value= mensaje)
+                    input.btn.btn-primary.btn-block(type='submit', value="Enviar") 
+
+            .col-3

@@ -1,0 +1,32 @@
+
+header{
+    font-family: 'Roboto', sans-serif;
+    height: 60px;
+    width: 100%;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+#title{
+    font-weight: bolder;
+    line-height: 60px;
+    margin-left: 30px;
+    font-size: 26px;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+}
+li{
+    list-style: none;
+    margin-right: 30px;
+}
+li a{
+    display: inline;
+    font-size: 18px;
+    line-height: 60px;
+    color: white;
+    text-decoration: none;
+}

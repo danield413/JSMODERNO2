@@ -1,0 +1,18 @@
+entry (entrada):
+un punto de entrada que especifica que modulo debe utilizar webpack para comenzar a crear
+la grafica de dependencias, se encargara de saber que dependencias tiene ese modulo
+
+output(salida):
+la salida le dira a webpack en que parte se debe almacenar el bundle(´paquete) que se
+ha creado
+normalmente la entrada esta en una carpeta src/ y la salida en una llamada dist/
+
+loaders(cargadores)
+webpack solo entiende js pero con los loaders puedes cargar formatos como sas, less,img, html
+etc...
+-test: le dice al archivo webpack que archivos deben ser transformados
+-use: que le dice al archivo webpack que loader estamos utilizando para este archivo
+
+plugins(complementos)
+los plugins optimizan el bundle, administran los assets (archivos usados en el proyecto)
+el plugin se instala via NPM y se importa al webpack con requiere()
